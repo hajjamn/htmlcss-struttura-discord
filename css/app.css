@@ -33,6 +33,10 @@ a, button {
 
 /* UTILITY FIRST */
 
+.col-16_5 {
+    width: calc(100% / 6)
+}
+
 .col-25 {
     width: 25%;
 }
@@ -84,7 +88,7 @@ a, button {
     border-bottom: 2px solid #ADD8E6; /* O padding-bottom */
 }
 
-.debug nav [class^=col] {
+.debug header nav [class^=col] {
     background-color: #DAA520;
 }
 
@@ -115,6 +119,10 @@ a, button {
     background-color: #D3D3D3;
 }
 
+.debug .bgblack {
+    background-color: #23272A;
+}
+
 .debug main section {
     padding: 40px;
 }
@@ -134,4 +142,25 @@ a, button {
 .debug .greenbig .col-100{
     min-height: 600px;
     background-color: #228B22;
+}
+
+.debug footer section,.debug footer nav {
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.debug footer .cards [class^=col] {
+    min-height: 350px;
+}
+
+.debug .cards .col-33 {
+    background-color: #F08080;
+}
+
+.debug .cards .col-16_5 {
+    background-color: #20B2AA;
+}
+
+.debug footer .cards {
+    border-bottom: 1px solid #CCCDCD;
 }
