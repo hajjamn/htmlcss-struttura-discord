@@ -68,10 +68,6 @@ a, button {
 
 /* DEBUG */
 
-.debug .container {
-    
-}
-
 .debug .row { /* REMOVE WHEN DONE */
     border: 2px dashed black;
     padding: 5px;
@@ -88,45 +84,54 @@ a, button {
     border-bottom: 2px solid #ADD8E6; /* O padding-bottom */
 }
 
-.debug nav {
-    padding: 10px;
-}
-
 .debug nav [class^=col] {
     background-color: #DAA520;
 }
 
-.debug .header-blue {
-    background-color: #00008B;
+.debug header {
     padding: 20px;
 }
 
-.header-blue .row {
+.debug .bgblue .row {
     min-height: 250px;
     max-width: 800px;
     margin: 0 auto;
 }
 
-.header-blue [class^=col] {
+.debug .bgblue [class^=col] {
     background-color: #EE82EE;
+}
+
+.debug .bgblue {
+    background-color: #00008B;
+    padding: 20px;
 }
 
 .debug .bgwhite {
     background-color: white;
 }
 
-main section {
-    padding: 20px;
+.debug .bggrey {
+    background-color: #D3D3D3;
 }
 
-main .col-33 {
+.debug main section {
+    padding: 40px;
+}
+
+.debug main .col-33 {
     background-color: #FFC0CB;
 }
 
-main .col-66 {
+.debug main .col-66 {
     background-color: #1E90FF;
 }
 
-main [class^=col] {
+.debug main [class^=col] {
     min-height: 300px;
+}
+
+.debug .greenbig .col-100{
+    min-height: 600px;
+    background-color: #228B22;
 }
