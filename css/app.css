@@ -7,3 +7,34 @@
 ul, ol, menu {
     list-style-type: none;
 }
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* DEBUG */
+
+.debug .container {
+    border: 2px dashed black;
+    padding: 5px;
+}
+
+.debug .row {
+    border: 2px dashed black;
+    padding: 5px;
+}
+
+.debug .col {
+    border: 2px dashed black;
+    padding: 5px;
+}
