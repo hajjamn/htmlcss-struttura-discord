@@ -41,6 +41,10 @@ a, button {
     width: 50%;
 }
 
+.col-100 {
+    width: 100%;
+}
+
 .ta-left {
     text-align: left;
 }
@@ -84,14 +88,17 @@ a, button {
     background-color: #DAA520;
 }
 
-.debug .cblue {
+.debug .header-blue {
     background-color: #00008B;
     padding: 20px;
 }
 
-.cblue .row {
-    background-color: #EE82EE;
+.header-blue .row {
     min-height: 300px;
     max-width: 800px;
     margin: 0 auto;
+}
+
+.header-blue [class^=col] {
+    background-color: #EE82EE;
 }
