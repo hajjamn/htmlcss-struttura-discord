@@ -72,11 +72,12 @@ a, button {
 
 /* DEBUG */
 
-.debug .row { /* REMOVE WHEN DONE */
+/* REMOVE WHEN DONE */
+/* .debug .row {
     border: 2px dashed black;
     padding: 5px;
     background-color: white;
-}
+} */
 
 .debug [class^=col] {
     border: 2px dashed black;
@@ -93,7 +94,7 @@ a, button {
 }
 
 .debug header {
-    padding: 20px;
+    padding-top: 20px;
 }
 
 .debug .bgblue .row {
@@ -144,7 +145,7 @@ a, button {
     background-color: #228B22;
 }
 
-.debug footer section,{
+.debug footer section{
     padding-top: 5px;
     padding-bottom: 20px;
 }
@@ -159,6 +160,7 @@ a, button {
 
 .debug .cards .col-16_5 {
     background-color: #20B2AA;
+    border-color: white;
 }
 
 .debug footer .cards {
@@ -167,8 +169,7 @@ a, button {
 
 .debug footer nav .row {
     background-color: #7FFFD4;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 10px 0;
     justify-content: space-between;
 }
 
@@ -178,5 +179,5 @@ a, button {
 }
 
 .debug footer nav {
-    padding-top: 5px;
+    padding-top: 20px;
 }
