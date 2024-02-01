@@ -57,13 +57,13 @@ a, button {
 /* DEBUG */
 
 .debug .container {
-/*     border: 2px dashed black; */
-    padding: 5px; /* remove when done */
+    
 }
 
-.debug .row {
+.debug .row { /* REMOVE WHEN DONE */
     border: 2px dashed black;
     padding: 5px;
+    background-color: white;
 }
 
 .debug [class^=col] {
@@ -73,11 +73,11 @@ a, button {
 
 .debug header {
     background-color: #ADD8E6;
-    padding: 5px;
+    border-bottom: 2px solid #ADD8E6; /* O padding-bottom */
 }
 
-.debug nav .row {
-    background-color: white;
+.debug nav {
+    padding: 10px;
 }
 
 .debug nav [class^=col] {
@@ -87,7 +87,6 @@ a, button {
 .debug .cblue {
     background-color: #00008B;
     padding: 20px;
-    border-bottom:2px solid #ADD8E6;
 }
 
 .cblue .row {
