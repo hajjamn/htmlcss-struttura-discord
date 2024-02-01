@@ -144,7 +144,7 @@ a, button {
     background-color: #228B22;
 }
 
-.debug footer section,.debug footer nav {
+.debug footer section,{
     padding-top: 5px;
     padding-bottom: 20px;
 }
@@ -163,4 +163,20 @@ a, button {
 
 .debug footer .cards {
     border-bottom: 1px solid #CCCDCD;
+}
+
+.debug footer nav .row {
+    background-color: #7FFFD4;
+    padding-left: 0;
+    padding-right: 0;
+    justify-content: space-between;
+}
+
+.debug footer nav .row div {
+    background-color: #FFB6C1;
+    font-size: 10px;
+}
+
+.debug footer nav {
+    padding-top: 5px;
 }
