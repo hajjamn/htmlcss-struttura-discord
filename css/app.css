@@ -37,8 +37,16 @@ a, button {
     width: 25%;
 }
 
+.col-33 {
+    width: calc(100% / 3);
+}
+
 .col-50 {
     width: 50%;
+}
+
+.col-66 {
+    width: calc(100% / 3 * 2);
 }
 
 .col-100 {
@@ -94,11 +102,31 @@ a, button {
 }
 
 .header-blue .row {
-    min-height: 300px;
+    min-height: 250px;
     max-width: 800px;
     margin: 0 auto;
 }
 
 .header-blue [class^=col] {
     background-color: #EE82EE;
+}
+
+.debug .bgwhite {
+    background-color: white;
+}
+
+main section {
+    padding: 20px;
+}
+
+main .col-33 {
+    background-color: #FFC0CB;
+}
+
+main .col-66 {
+    background-color: #1E90FF;
+}
+
+main [class^=col] {
+    min-height: 300px;
 }
