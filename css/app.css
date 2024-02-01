@@ -1,3 +1,5 @@
+/* RESET */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -12,6 +14,13 @@ img {
     max-width: 100%;
 }
 
+a, button {
+    text-decoration: none;
+    color: currentColor;
+}
+
+/* FRAMEWORK */
+
 .container {
     max-width: 900px;
     margin: 0 auto;
@@ -22,10 +31,33 @@ img {
     flex-wrap: wrap;
 }
 
+/* UTILITY FIRST */
+
+.col-25 {
+    width: 25%;
+}
+
+.col-50 {
+    width: 50%;
+}
+
+.ta-left {
+    text-align: left;
+}
+
+.ta-center {
+    text-align: center;
+}
+
+.ta-right {
+    text-align: right;
+}
+
+
 /* DEBUG */
 
 .debug .container {
-    border: 2px dashed black;
+/*     border: 2px dashed black; */
     padding: 5px;
 }
 
@@ -34,7 +66,20 @@ img {
     padding: 5px;
 }
 
-.debug .col {
+.debug [class^=col] {
     border: 2px dashed black;
     padding: 5px;
+}
+
+.debug header {
+    background-color: #ADD8E6;
+    padding: 5px;
+}
+
+.debug nav .row {
+    background-color: white;
+}
+
+.debug nav [class^=col] {
+    background-color: #DAA520;
 }
