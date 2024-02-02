@@ -91,6 +91,7 @@ a, button {
 
 .debug header nav [class^=col] {
     background-color: #DAA520;
+    margin-bottom: 20px;
 }
 
 .debug header {
